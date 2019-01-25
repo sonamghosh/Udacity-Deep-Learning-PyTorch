@@ -65,3 +65,14 @@ if not num_wrong:
 else:
     print('You got {} wrong.  Keep trying!\n'.format(num_wrong))
 print(output_frame.to_string(index=False))
+
+
+"""
+XOR
+
+o --- NOT --- AND 
+   \/            \
+                   AND ---> XOR
+   /\            /
+o ---- OR -------
+
